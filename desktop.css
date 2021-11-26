@@ -1,0 +1,114 @@
+#menu{
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  }
+#menu ul{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 50px;
+}
+#menu li{
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+#menu li a:hover{
+  color: black;
+  background-color:  #0cf2ff;
+  padding: 8px 0;
+  border: 1px solid white;
+  font-family: 'Tourney', cursive;
+  font-size: 120%;
+}
+#menu a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #97006f;
+  font-family: 'Tourney', cursive;
+  font-size: 120%;
+  }
+.background{
+  position: relative;
+  background: linear-gradient(45deg, #f1e3ff, #c2ffe7);
+  opacity: 0.5;
+  width: 100%;
+  height: 50px;
+}
+.logo{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 10px;
+  width: 100%
+}
+img{
+  width: 100%;
+  height: auto;
+}
+#banner img{
+  position: relative;
+ }
+#banner h1{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 100px;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+}
+#banner p{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 100px;
+  font-family: 'Pacifico', cursive;
+  font-size: 110%;
+}
+.row::after{
+  clear: both;
+  display: table;
+  float: left;
+   margin-right: 20px;
+}
+#content {
+width: 100%;
+  display: table;
+  float: left;
+  margin-right: 20px;
+background-color: #e7ffda;
+  margin-top: -3px;
+}
+.box{
+  padding-bottom: 20px;
+}
+.row div img{
+  width: 98%;
+  height: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 992px) {
+  [class*="col-"] {
+    float: left;
+    padding-left: 30px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+#footer{
+  background: #ffe6d7;
+  clear: both;
+  height: 250px;}
+#footer div {
+  height: auto;
+  width: 33.3%;
+}

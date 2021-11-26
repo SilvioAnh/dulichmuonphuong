@@ -1,0 +1,136 @@
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  [class*="col-"] {
+    float: left;
+    padding-left: 30px;
+  }
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}}
+  #menu {
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    position: fixed;
+  }
+  #menu ul {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -35px;
+  }
+  #menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 40px;
+  }
+  #menu li a:hover {
+    color: black;
+    background-color: #0cf2ff;
+    padding: 8px 0;
+    font-family: 'Tourney', cursive;
+    font-size: 100%;
+  }
+  #menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #97006f;
+    font-family: 'Tourney', cursive;
+    font-size: 100%;
+  }
+  .logo {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+    width: 100%
+  }
+  .background {
+    position: relative;
+    background: linear-gradient(45deg, #f1e3ff, #c2ffe7);
+    opacity: 0.5;
+    width: 100%;
+    height: 50px;
+  }
+  #content {
+    width: 100%;
+    height: auto;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .background {
+    position: relative;
+    background: linear-gradient(45deg, #f1e3ff, #c2ffe7);
+    opacity: 0.5;
+    width: 100%;
+    height: 50px;
+  }
+img{
+  width: 100%;
+  height: auto;
+}
+  #banner img{
+    position: relative;
+    margin-top: 50px;
+  }
+  #banner h1 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+  }
+  #banner p {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 100%;
+  }
+  #content {
+    float: left;
+    margin-right: 20px;
+    background-color: #e7ffda;
+    margin-top: -3px;
+    width: 100%;
+  }
+  .row::after {
+    clear: both;
+    display: table;
+    float: left;
+    margin-right: 20px;
+  }
+  #content {
+    width: 100%;
+    display: table;
+    float: left;
+    margin-right: 20px;
+    background-color: #e7ffda;
+    margin-top: -3px;
+  }
+  .row div {
+    width: 45%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+#footer{
+    background: #ffe6d7;
+    clear: both;
+    height: 250px;}
+#footer div {
+    height: auto;
+    width: 33.3%;
+  }
+
